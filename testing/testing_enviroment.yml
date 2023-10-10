@@ -1,0 +1,8 @@
+# conda env create -f environment.yml
+name: testing_enviroment
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas          
+  - requests
